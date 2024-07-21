@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">KukuFmAssignment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="home_header">SpaceX Launch Tracker</string>
+    <string name="detail_header">SpaceX Launch Details</string>
+    <string name="favourite_header">Favourite Launches</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mission_name">Mission Name : </string>
+    <string name="rocket_name">Rocket Name : </string>
+    <string name="rocket_id">Rocket Id : </string>
+    <string name="rocket_type">Rocket Type : </string>
+    <string name="flight_no">Flight No : </string>
+    <string name="launch_date">Launch Date : </string>
+    <string name="payloads_id">Payloads Id : </string>
+    <string name="manufacturer">Payloads Manufacturer : </string>
+    <string name="nationality">Payloads Nationality : </string>
+    <string name="payload_type">Payloads Type : </string>
+    <string name="payload_mass_kg">Payloads Mass in kg : </string>
+    <string name="orbit">Orbit : </string>
+    <string name="apoapsis_km">Orbit param(apoapsis_km) : </string>
+    <string name="periapsis_km">Orbit param(periapsis_km) : </string>
+    <string name="semi_major_axis_km">Orbit param(semi major axis km) : </string>
+    <string name="inclination_deg">Orbit param(inclination_deg) : </string>
+    <string name="lifespan_years">Orbit param(lifespan_years) : </string>
+    <string name="period_min">Orbit param(period_min) : </string>
+    <string name="reference_system">Orbit param(reference_system) : </string>
+    <string name="regime">Orbit param(regime) : </string>
+    <string name="longitude">Orbit param(longitude) : </string>
+    <string name="epoch">Orbit param(epoch) : </string>
+    <string name="mean_motion">Orbit param(mean_motion) : </string>
+    <string name="raan">Orbit param(raan) : </string>
+    <string name="arg_of_pericenter">Orbit param(arg_of_pericenter) : </string>
+    <string name="eccentricity">Orbit param(eccentricity) : </string>
+    <string name="mean_anomaly">Orbit param(mean_anomaly) : </string>
+    <string name="launch_site">Launch Site Name : </string>
+    <string name="site_id">Launch Site Id : </string>
+    <string name="launch_success">Launch Success : </string>
+    <string name="time">Launch failure time : </string>
+    <string name="altitude">Launch failure altitude : </string>
+    <string name="reason">Launch failure reason : </string>
+    <string name="details">Details : </string>
+    <string name="article_link">Article link : </string>
+    <string name="wikipedia">Wikipedia link : </string>
+    <string name="video_link">Youtube link : </string>
+    <string name="no_data">You don\'t have any favourite launches yet!</string>
+</resources>

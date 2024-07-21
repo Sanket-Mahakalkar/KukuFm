@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/spaceXLaunchFragment">
+
+    <fragment
+        android:id="@+id/spaceXLaunchFragment"
+        android:name="com.example.kukufmassignment.fragments.SpaceXLaunchFragment"
+        android:label="SpaceXLaunchFragment">
+
+        <action
+            android:id="@+id/launch_fragment_to_detail_fragment"
+            app:destination="@+id/spaceXDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" >
+
+            <argument
+                android:name="launchDetails"
+                app:argType="com.example.kukufmassignment.model.SpaceXItem"/>
+
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/spaceXDetailFragment"
+        android:name="com.example.kukufmassignment.fragments.SpaceXDetailFragment"
+        android:label="SpaceXDetailFragment" >
+        <argument
+            android:name="launchDetails"
+            app:argType="com.example.kukufmassignment.model.SpaceXItem"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.kukufmassignment.fragments.FavouriteFragment"
+        android:label="FavoriteFragment"/>
+
+    <action android:id="@+id/global_action_to_favourite_fragment"
+        app:destination="@+id/favoriteFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+</navigation>
